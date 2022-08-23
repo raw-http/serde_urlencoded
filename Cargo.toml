@@ -18,7 +18,7 @@ travis-ci = {repository = "nox/serde_urlencoded"}
 test = false
 
 [dependencies]
-form_urlencoded = "1"
+form_urlencoded = {git = "https://github.com/raw-http/rust-url"}
 itoa = "1"
 ryu = "1"
 serde = "1.0.69"
